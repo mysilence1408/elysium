@@ -6,7 +6,7 @@ app.use(express.json());
 const PORT = 5000;
 
 app.get("/", (req, res) => {
-  res.send("Hello from Express!");
+  res.send("Hello World from Express!");
 });
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
